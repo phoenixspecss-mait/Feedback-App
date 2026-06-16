@@ -1,0 +1,16 @@
+# Flutter/Dart build files (Crucial to prevent the 413MB binary push error!)
+/build/
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+
+# Android/iOS local configs
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+
+# System files
+.DS_Store
+*.log
